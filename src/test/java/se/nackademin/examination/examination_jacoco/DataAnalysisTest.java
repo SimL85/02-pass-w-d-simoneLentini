@@ -21,8 +21,8 @@ public class DataAnalysisTest {
 		assertTrue("The name of the homecity is big and the participant is younger than 30",
 				result.contains("The name of the homecity is big and the participant is younger than 30"));
 
-		
-}
+	}
+
 	@Test
 	public void test2() {
 		DataAnalysis dataAnalysis = new DataAnalysis();
@@ -35,8 +35,8 @@ public class DataAnalysisTest {
 		assertTrue("The name of the homecity is big and the participant is 30 or older",
 				result.contains("The name of the homecity is big and the participant is 30 or older"));
 
-
 	}
+
 	@Test
 	public void test3() {
 		DataAnalysis dataAnalysis = new DataAnalysis();
@@ -51,26 +51,25 @@ public class DataAnalysisTest {
 
 	}
 
-
 	@Test
 	public void test4() {
 		DataAnalysis dataAnalysis = new DataAnalysis();
 		ArrayList<String> values = new ArrayList<String>();
 		values.addAll(Arrays.asList("Game", "Simone", "Lenti", "M", "29", "Noto"));
 		String result = dataAnalysis.buildFinalString(values);
-		assertTrue("No analysis was performed",result.contains("No analysis was performed"));
+		assertTrue("No analysis was performed", result.contains("No analysis was performed"));
 		assertTrue("The name of the homecity is small and the participant is younger than 30",
 				result.contains("The name of the homecity is small and the participant is younger than 30"));
 
 	}
+
 	@Test
 	public void test5() {
 		DataAnalysis dataAnalysis = new DataAnalysis();
 		ArrayList<String> values = new ArrayList<String>();
 		values.addAll(Arrays.asList("Game", "Titta", "Silvestri", "M", "31", "Siracusa"));
 		String result = dataAnalysis.buildFinalString(values);
-		assertTrue("No analysis was performed",result.contains("No analysis was performed"));
-		
-}
-}
+		assertTrue("No analysis was performed", result.contains("No analysis was performed"));
 
+	}
+}
