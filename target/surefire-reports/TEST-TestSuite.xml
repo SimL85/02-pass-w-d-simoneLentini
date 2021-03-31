@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.829" tests="34" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\lenti\Documents\Skola\Programmering\koda\second-project-pass-w-d-VG-ex\examination-jacoco\target\test-classes;C:\Users\lenti\Documents\Skola\Programmering\koda\second-project-pass-w-d-VG-ex\examination-jacoco\target\classes;C:\Users\lenti\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\lenti\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\lenti\.m2\repository\org\testng\testng\6.8.8\testng-6.8.8.jar;C:\Users\lenti\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\lenti\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="SE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\lenti\AppData\Local\Temp\surefire8684296721024888216\surefirebooter15938215157343220169.jar C:\Users\lenti\AppData\Local\Temp\surefire8684296721024888216 2021-03-31T22-53-04_134-jvmRun1 surefire14464403967430124065tmp surefire_07940145788540471196tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\lenti\Documents\Skola\Programmering\koda\second-project-pass-w-d-VG-ex\examination-jacoco\target\test-classes;C:\Users\lenti\Documents\Skola\Programmering\koda\second-project-pass-w-d-VG-ex\examination-jacoco\target\classes;C:\Users\lenti\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\lenti\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\lenti\.m2\repository\org\testng\testng\6.8.8\testng-6.8.8.jar;C:\Users\lenti\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\lenti\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\lenti"/>
+    <property name="user.language" value="sv"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\lenti\Documents\Skola\Programmering\koda\second-project-pass-w-d-VG-ex\examination-jacoco"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\lenti\AppData\Local\Temp\surefire8684296721024888216\surefirebooter15938215157343220169.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.10+9"/>
+    <property name="user.name" value="lenti"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="C:\Users\lenti\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\lenti\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="C:\Users\lenti\Documents\Skola\Programmering\koda\second-project-pass-w-d-VG-ex\examination-jacoco"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\lenti\AppData\Local\Microsoft\WindowsApps;C:\Users\lenti\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.10+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="test1 on test1(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0.007"/>
+  <testcase name="test2 on test2(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="test3 on test3(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="test4 on test4(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="test5 on test5(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="testConversorCity on testConversorCity(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0"/>
+  <testcase name="testConversorName on testConversorName(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0"/>
+  <testcase name="testConversorGender on testConversorGender(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0"/>
+  <testcase name="testConversorAge on testConversorAge(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0"/>
+  <testcase name="testGenderGettersAndSettersMethods on testGenderGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0.001"/>
+  <testcase name="testHomeCityGettersAndSettersMethods on testHomeCityGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0"/>
+  <testcase name="testAgeGettersAndSettersMethods on testAgeGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0"/>
+  <testcase name="testNameLenghtGettersAndSettersMethods on testNameLenghtGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0"/>
+  <testcase name="testMainMethod on testMainMethod(se.nackademin.examination.examination_jacoco.MainTest)" classname="se.nackademin.examination.examination_jacoco.MainTest" time="0.001"/>
+  <testcase name="testRun on testRun(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.028"/>
+  <testcase name="testCalculateOutPutBasedOnGender1 on testCalculateOutPutBasedOnGender1(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnGender2 on testCalculateOutPutBasedOnGender2(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnGender3 on testCalculateOutPutBasedOnGender3(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnNames1 on testCalculateOutPutBasedOnNames1(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnNames2 on testCalculateOutPutBasedOnNames2(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnNames3 on testCalculateOutPutBasedOnNames3(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnAge1 on testCalculateOutPutBasedOnAge1(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnAge2 on testCalculateOutPutBasedOnAge2(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity10 on testCalculateOutPutBasedOnHomeCity10(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity11 on testCalculateOutPutBasedOnHomeCity11(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity1 on testCalculateOutPutBasedOnHomeCity1(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity2 on testCalculateOutPutBasedOnHomeCity2(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity3 on testCalculateOutPutBasedOnHomeCity3(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity4 on testCalculateOutPutBasedOnHomeCity4(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity5 on testCalculateOutPutBasedOnHomeCity5(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity6 on testCalculateOutPutBasedOnHomeCity6(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity7 on testCalculateOutPutBasedOnHomeCity7(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity8 on testCalculateOutPutBasedOnHomeCity8(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testCalculateOutPutBasedOnHomeCity9 on testCalculateOutPutBasedOnHomeCity9(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+</testsuite>
