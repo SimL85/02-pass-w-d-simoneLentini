@@ -171,5 +171,14 @@ public class GameTest {
 
 		assertEquals(i, 10);
 	}
+	/*@Test
+	public void testBuildFinalString1() {
+		Game game = new Game();
+		
+		game.buildFinalString("Simone","Lentini",);
+
+		assertEquals(i, 10);
+	}*/
+	
 
 }
