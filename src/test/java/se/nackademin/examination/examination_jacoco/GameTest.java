@@ -171,6 +171,5 @@ public class GameTest {
 
 		assertEquals(i, 10);
 	}
-	
-	
+
 }
