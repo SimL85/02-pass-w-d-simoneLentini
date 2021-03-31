@@ -10,7 +10,19 @@ public class GameTest {
 	public void testMethod1() {
 		Game game = new Game();
 		int i = game.calculateOutPutBasedOnNames("Rafael", "Silva");
-		assertEquals("The result should be 1", i, 1);
+		assertEquals( i, 1);
+	}
+	@Test
+	public void testMethod2() {
+		Game game = new Game();
+		int i = game.calculateOutPutBasedOnNames("Simone", "Lentini");
+		assertEquals( i, 0);
+	}
+	@Test
+	public void testMethod3() {
+		Game game = new Game();
+		int i = game.calculateOutPutBasedOnNames("Simone", "Lentin");
+		assertEquals( i, 2);
 	}
 
 }
